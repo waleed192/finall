@@ -1,0 +1,26 @@
+.note_box {
+  // box-shadow: darken($color: #e4dddd, $amount: 30px);
+  width: 500px;
+  padding: 30px;
+  margin-bottom: 10px;
+  position: relative;
+  transition: box-shadow 0.2s;
+  padding: 1rem;
+  background-color: brown;
+  // border: 2px solid #fff;
+  // color: #fff;
+  // text-align: center;
+}
+
+.Note__delete-button {
+  font-family: inherit;
+  font-size: inherit;
+  border: none;
+  background-color: transparent;
+  position: absolute;
+  right: 5px;
+  top: 0;
+  cursor: pointer;
+}
+
+
